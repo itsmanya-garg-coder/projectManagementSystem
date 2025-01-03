@@ -1,0 +1,55 @@
+body{
+    background: url(main.jpg) no-repeat center center/cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 150px ;
+    color: rgb(207, 139, 230);
+    text-align: left;
+    
+    text-shadow: 10px 10px 6px;
+    margin: 0;
+}
+.tagline{
+    font-size: 60px;
+    color: rgb(121, 188, 144);
+    margin-left: 40%;
+}
+.navbar {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #43bbeb;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #43bbeb;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
